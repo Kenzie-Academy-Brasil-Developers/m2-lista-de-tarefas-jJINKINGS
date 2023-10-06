@@ -72,7 +72,7 @@ function newTask() {
       type: selectTask.value
     };
 
-    tasks.unshift(objTask);
+    tasks.push(objTask);
 
     renderElements(tasks);
   })
